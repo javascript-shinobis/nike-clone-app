@@ -1,0 +1,1 @@
+An E-commerce app for shopping shoes of your choice and style.
