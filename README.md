@@ -17,7 +17,7 @@ The project follows a modular structure with separate components and pages, allo
 
 ### Development Setup
 
-- Clone the repository
+- Clone the repo
 
 ```
 git clone https://github.com/javascript-shinobis/nike-clone-app.git
