@@ -1,4 +1,3 @@
-import favicon from "@/app/favicon.ico";
 import Image from "next/image";
 
 export default function Home() {
