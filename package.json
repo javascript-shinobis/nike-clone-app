@@ -1,7 +1,9 @@
 {
   "name": "nike-clone-app",
   "version": "0.1.0",
-  "private": true,
+  "private": "true",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
