@@ -5,9 +5,6 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  '@next/font':
-    specifier: ^13.4.6
-    version: 13.4.6
   '@reduxjs/toolkit':
     specifier: ^1.9.5
     version: 1.9.5(react-redux@8.1.0)(react@18.2.0)
@@ -181,10 +178,6 @@ packages:
     resolution: {integrity: sha512-bPigeu0RI7bgy1ucBA2Yqcfg539y0Lzo38P2hIkrRB1GNvFSbYg6RTu8n6tGqPVrH3TTlPTNKLXG01wc+5NuwQ==}
     dependencies:
       glob: 7.1.7
-    dev: false
-
-  /@next/font@13.4.6:
-    resolution: {integrity: sha512-Pjm6B6f4KWr4kWe7yu2trLtwQPco/wLSOzWeD7bW17Sd209ibrhRwbSggvlAt1FJu8K4ag2xtVg8WfRFbON1mw==}
     dev: false
 
   /@next/swc-darwin-arm64@13.4.6:

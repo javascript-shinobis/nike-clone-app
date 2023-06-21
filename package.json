@@ -12,7 +12,6 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@next/font": "^13.4.6",
     "@reduxjs/toolkit": "^1.9.5",
     "@stripe/react-stripe-js": "^2.1.1",
     "@stripe/stripe-js": "^1.54.0",

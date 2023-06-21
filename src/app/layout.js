@@ -1,8 +1,5 @@
+import {inter} from "./fonts";
 import './globals.css'
-import { Inter } from 'next/font/google'
-import Document from './pages/_document'
-
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Online Shoe Store',
@@ -12,8 +9,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
-      <Document/>
+      <body className={`${inter.variable} font-inter`}>{children}</body>
     </html>
   )
 }
