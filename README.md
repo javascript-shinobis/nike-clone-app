@@ -1,34 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### Nike Shoe Store Clone
 
-## Getting Started
+This is a group project to showcase the workflow of an E-commerce store web application.
+It is built using Next.js, Tailwind CSS, and following clean code principles. The project incorporates various developer experience tools in the codebase, such as Husky, ESLint, and Prettier, to ensure code quality and maintainability.
 
-First, run the development server:
+### Technologies Used
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+- Next.js: A React framework for server-rendered applications.
+- Tailwind CSS: A utility-first CSS framework for rapidly building custom designs.
+- Husky: A Git hooks tool that helps automate tasks like linting and formatting before commits.
+- ESLint: A pluggable JavaScript linter for identifying and reporting code errors and inconsistencies.
+- Prettier: A code formatter that enforces a consistent code style across the project.
+
+### Project Structure
+
+The project follows a modular structure with separate components and pages, allowing for easier maintenance and scalability. The codebase adheres to clean code principles, emphasizing readability, maintainability, and separation of concerns.
+
+### Development Setup
+
+- Clone the repository
+
+```
+git clone https://github.com/javascript-shinobis/nike-clone-app.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Install dependencies
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Start the server
 
-## Learn More
+```
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Feel free to explore the codebase and contribute to the project as needed. For any questions or issues, please refer to the project's documentation or contact the project maintainers.
