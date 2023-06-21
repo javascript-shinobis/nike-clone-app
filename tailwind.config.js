@@ -11,7 +11,11 @@ module.exports = {
       urbanist: "Urbanist, sans-serif"
     },
     extend: {
-      
+      fontFamily: {
+        inter: ['var(--font-inter)'],
+        oswald: ['var(--font-oswald)'],
+        urbanist: ['var(--font-urbanist)']
+      }
     },
   },
   plugins: [],
