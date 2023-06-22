@@ -1,5 +1,3 @@
-import Button from "../stories/Button";
-
 function Home() {
 	return (
 		<div>
