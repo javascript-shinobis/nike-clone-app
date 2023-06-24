@@ -1,0 +1,105 @@
+name: 'Bug Report'
+description: Create a new ticket for a bug
+title: '[BUG] <title>'
+labels: ['bug']
+body:
+  - type: dropdown
+    attributes:
+      label: 'Operating system'
+      description: List all OS(s) impacted.
+      multiple: true
+      options:
+        - Windows
+        - Linux
+        - Mac
+    validations:
+      required: false
+  - type: dropdown
+    attributes:
+      label: 'Browser'
+      description: List all browser(s) impacted.
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Brave
+        - Microsoft Edge
+        - Opera
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: 'Steps to Reproduce'
+      description: Please list all the steps to reproduce
+      placeholder: step 1
+    validations:
+      required: false
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: 'Screenshots (optional)'
+      description: If applicable, add screenshots to help explain your problem.
+      value: |
+        ![DESCRIPTION](LINK.png)
+      render: bash
+    validations:
+      required: false
+  - type: checkboxes
+    id: lists
+    attributes:
+      label: Checklist
+      description: Please check the following boxes that applies
+      options:
+        - label: My code follows the style guidelines of this project
+        - label: I have performed a self-review of my own code
+        - label: My commits are clean and follow [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/#examples) style.
+        - label: I have created reusable components wherever possible.
+        - label: I have commented my code, particularly in hard-to-understand areas
+        - label: I have made corresponding changes to the documentation
+        - label: My changes generate no new warnings
+        - label: I have added tests that prove my fix is effective or that my feature works
+        - label: New and existing unit tests pass locally with my changes
+        - label: Any dependent changes have been merged and published in downstream modules
+          required: false
+  - type: textarea
+    attributes:
+      label: 'Todo List (optional)'
+      description: Please list all the tasks that need to be done!
+      placeholder: item 1 ...
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: 'Proposed Solution (optional)'
+      description: If you have any ideas or suggestions for a potential solution, please describe them here
+      placeholder: start typing
+    validations:
+      required: false
+  - type: dropdown
+    attributes:
+      label: 'Reproducibility (optional)'
+      description: How often to you encounter this issue?
+      options:
+        - Always
+        - Sometimes
+        - Rarely
+    validations:
+      required: false
+  - type: dropdown
+    attributes:
+      label: 'Severity (optional)'
+      description: Provide priority level of your issue.
+      options:
+        - low
+        - Medium
+        - High
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: 'Any other information (optional)'
+      description: Include any other relevant information that may assist in resolving the issue
+      placeholder: start typing
+    validations:
+      required: false
