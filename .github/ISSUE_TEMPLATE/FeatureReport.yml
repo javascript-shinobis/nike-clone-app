@@ -1,0 +1,63 @@
+name: 'Feature Request'
+description: Create a new ticket for a new feature request
+title: '[REQUEST] - <title>'
+labels: ['question']
+body:
+  - type: input
+    id: start_date
+    attributes:
+      label: 'Start Date'
+      description: Start of development
+      placeholder: 'month/day/year'
+    validations:
+      required: false
+  - type: input
+    id: reporter_person
+    attributes:
+      label: 'Reporter'
+      description: Name of the reporter
+      placeholder: 'John Doe'
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: 'Current Behavior'
+      description: Describe the current behavior or state of the software or platform where the feature is expected to be implemented.
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: 'Description'
+      description: Provide a detailed description of the feature, including its purpose, expected functionality, and any relevant details. Use clear and concise language to explain the feature.
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: 'Use Case'
+      description: |
+        - Explain how this feature would benefit users or address specific use cases. 
+        - Provide examples or scenarios where this feature would be useful.
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: 'Proposed Solution'
+      description: |
+        - Present your proposed solution for implementing the feature. 
+          - This can include technical details, workflows, or any other information necessary for understanding the implementation.
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: 'Implementation Steps'
+      description: |
+        - Outline the steps required to implement the feature. 
+        - Break down the process into smaller tasks or milestones, if applicable.
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: 'Additional Comments (Optional)'
+      description: Include any additional comments, suggestions, or considerations related to the feature.
+    validations:
+      required: false
